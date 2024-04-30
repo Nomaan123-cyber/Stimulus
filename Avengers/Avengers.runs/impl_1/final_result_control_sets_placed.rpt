@@ -1,0 +1,66 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Thu Aug 03 17:56:12 2023
+| Host         : FL2-231 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file final_result_control_sets_placed.rpt
+| Design       : final_result
+| Device       : xc7a100t
+-----------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    13 |
+| Unused register locations in slices containing registers |    41 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              72 |           23 |
+| No           | No                    | Yes                    |               5 |            2 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |             134 |           34 |
+| Yes          | Yes                   | No                     |              12 |            6 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++-------------------------------+-----------------------------------------------+-------------------------------+------------------+----------------+
+|          Clock Signal         |                 Enable Signal                 |        Set/Reset Signal       | Slice Load Count | Bel Load Count |
++-------------------------------+-----------------------------------------------+-------------------------------+------------------+----------------+
+|  clock_1_IBUF_BUFG            | led[2]_i_1_n_0                                | clear_button_IBUF             |                1 |              1 |
+|  line_2_BUFG                  |                                               | clear_button_IBUF             |                1 |              1 |
+|  Clock_divider/seg_sel_reg[0] |                                               |                               |                1 |              2 |
+|  Clock_divider/CLK            |                                               | control                       |                1 |              4 |
+|  control                      |                                               |                               |                1 |              4 |
+|  Clock_divider/seg_sel_reg[0] | Seven_segmentd/cathode[7]_i_2_n_0             | Seven_segmentd/cathode0_in[7] |                2 |              5 |
+|  clock_1_IBUF_BUFG            | Signalcount/CCOUNTER/counter_i/E[0]           | clear_button_IBUF             |                1 |              5 |
+|  Clock_divider/seg_sel_reg[0] | Seven_segmentd/anode[3]_i_2_n_0               | Seven_segmentd/cathode0_in[4] |                4 |              7 |
+|  line_2_BUFG                  | Mil_secounter/hundred_millisecond[0]_i_1_n_0  | clear_button_IBUF             |                8 |             32 |
+|  line_2_BUFG                  | Mil_secounter/one_millisecond[0]_i_1_n_0      | clear_button_IBUF             |                8 |             32 |
+|  line_2_BUFG                  | Mil_secounter/ten_millisecond[0]_i_1_n_0      | clear_button_IBUF             |                8 |             32 |
+|  line_2_BUFG                  | Mil_secounter/thousand_millisecond[0]_i_1_n_0 | clear_button_IBUF             |                8 |             32 |
+|  clock_1_IBUF_BUFG            |                                               |                               |               21 |             66 |
++-------------------------------+-----------------------------------------------+-------------------------------+------------------+----------------+
+
+

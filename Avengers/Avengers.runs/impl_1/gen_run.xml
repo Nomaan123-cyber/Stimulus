@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1691081676">
+  <File Type="OPT-DCP" Name="final_result_opt.dcp"/>
+  <File Type="ROUTE-STATUS-PB" Name="final_result_route_status.pb"/>
+  <File Type="PA-TCL" Name="final_result.tcl"/>
+  <File Type="RDI-RDI" Name="final_result.vdi"/>
+  <File Type="PWROPT-DRC" Name="final_result_drc_pwropted.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="final_result_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="final_result_timing_summary_init.rpt"/>
+  <File Type="OPT-DRC" Name="final_result_drc_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="final_result_pwropt.dcp"/>
+  <File Type="OPT-HWDEF" Name="final_result.hwdef"/>
+  <File Type="OPT-TIMING" Name="final_result_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="final_result_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="final_result_placed.dcp"/>
+  <File Type="PLACE-IO" Name="final_result_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="final_result_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="final_result_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="final_result_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="final_result_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="final_result_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="final_result_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="final_result_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="final_result_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="final_result_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="final_result_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="final_result_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="final_result_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-DCP" Name="final_result_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="final_result_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="final_result_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="final_result_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="final_result_methodology_drc_routed.rpt"/>
+  <File Type="BG-BIT" Name="final_result.bit"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="final_result_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="final_result_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="final_result_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="final_result_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="final_result_route_status.rpt"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="final_result_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="final_result_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="final_result_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="final_result_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="final_result_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="final_result_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="final_result_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="final_result_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="final_result_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="final_result_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIN" Name="final_result.bin"/>
+  <File Type="BITSTR-MSK" Name="final_result.msk"/>
+  <File Type="BITSTR-RBT" Name="final_result.rbt"/>
+  <File Type="BITSTR-NKY" Name="final_result.nky"/>
+  <File Type="BITSTR-BMM" Name="final_result_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="final_result.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="final_result.sysdef"/>
+  <File Type="BG-BGN" Name="final_result.bgn"/>
+  <File Type="BG-DRC" Name="final_result.drc"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/counter.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/comparator_fourbit.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/four_bit_latch.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/counter_wrapper.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Sevensegmentd.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Randomgen.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Milsecounter.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Clockdivider.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/capncom.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/final_results.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="final_result"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/final_ports.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/final_ports.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

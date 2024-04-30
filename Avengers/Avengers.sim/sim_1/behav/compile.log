@@ -1,0 +1,21 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/Final/Avengers/Avengers.srcs/sources_1/new/counter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity counter
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/Final/Avengers/Avengers.srcs/sources_1/new/comparator_fourbit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity comparator_fourbit
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/Final/Avengers/Avengers.srcs/sources_1/new/four_bit_latch.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity four_bit_latch
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/Final/Avengers/Avengers.srcs/sources_1/new/counter_wrapper.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity counter_wrapper
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/Final/Avengers/Avengers.srcs/sources_1/new/Sevensegmentd.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Sevensegmentd
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/Final/Avengers/Avengers.srcs/sources_1/new/Randomgen.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Randomgen
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/Final/Avengers/Avengers.srcs/sources_1/new/Milsecounter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Milsecounter
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/Final/Avengers/Avengers.srcs/sources_1/new/Clockdivider.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Clockdivider
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/Final/Avengers/Avengers.srcs/sources_1/new/capncom.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity capncomp
+ERROR: [VRFC 10-91] clock_1hz is not declared [H:/Final/Avengers/Avengers.srcs/sources_1/new/capncom.vhd:83]
+ERROR: [VRFC 10-1504] unit behavioral ignored due to previous errors [H:/Final/Avengers/Avengers.srcs/sources_1/new/capncom.vhd:45]
+INFO: [VRFC 10-240] VHDL file H:/Final/Avengers/Avengers.srcs/sources_1/new/capncom.vhd ignored due to errors

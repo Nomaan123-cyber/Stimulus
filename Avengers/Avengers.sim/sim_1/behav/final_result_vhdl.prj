@@ -1,0 +1,14 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../Avengers.srcs/sources_1/new/counter.vhd"
+vhdl xil_defaultlib  "../../../Avengers.srcs/sources_1/new/comparator_fourbit.vhd"
+vhdl xil_defaultlib  "../../../Avengers.srcs/sources_1/new/four_bit_latch.vhd"
+vhdl xil_defaultlib  "../../../Avengers.srcs/sources_1/new/counter_wrapper.vhd"
+vhdl xil_defaultlib  "../../../Avengers.srcs/sources_1/new/Sevensegmentd.vhd"
+vhdl xil_defaultlib  "../../../Avengers.srcs/sources_1/new/Randomgen.vhd"
+vhdl xil_defaultlib  "../../../Avengers.srcs/sources_1/new/Milsecounter.vhd"
+vhdl xil_defaultlib  "../../../Avengers.srcs/sources_1/new/Clockdivider.vhd"
+vhdl xil_defaultlib  "../../../Avengers.srcs/sources_1/new/capncom.vhd"
+vhdl xil_defaultlib  "../../../Avengers.srcs/sources_1/new/final_results.vhd"
+
+# Do not sort compile order
+nosort
